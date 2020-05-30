@@ -1,0 +1,14 @@
+{
+  "name": "simondice",
+  "version": "1.0.0",
+  "description": "Proyecto del curso de Fundamentos de JavaScript de Platzi",
+  "main": "index.js",
+  "author": "Juan Rodriguez <juan.jose.dg03@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

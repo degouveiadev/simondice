@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon Dice</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="gameboard">
+      <div class="scoreboard">
+        <div class="scoreboard__item scoreboard__item--score">
+          <span>Score: </span>
+          <span id="score">0</span>
+        </div>
+        <div class="scoreboard__item">
+          <span>Level:</span>
+          <span id="level">1</span>
+        </div>
+        <div class="scoreboard__item--lives">
+          <span class="material-icons">favorite</span>
+          <span id="lives"> 3</span>
+        </div>
+      </div>
+
+      <div class="timer">
+        <span id="gameTime">60</span>
+        <span class="material-icons">schedule</span>
+      </div>
+
+      <div
+        id="lightBlue"
+        class="color celeste left"
+        data-color="lightBlue"
+      ></div>
+      <div id="violet" class="color violeta right" data-color="violet"></div>
+      <div id="orange" class="color naranja left" data-color="orange"></div>
+      <div id="green" class="color verde right" data-color="green"></div>
+      <button id="btnEmpezar" class="btn-start" onclick="startGame()">
+        Start Game!
+      </button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
